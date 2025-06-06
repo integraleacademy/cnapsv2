@@ -157,6 +157,5 @@ def ajouter_session():
         return redirect("/")
     return render_template("ajouter_session.html")
 
-if __name__ == "__main__":
-    app.run(debug=True)
+
 
