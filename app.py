@@ -1,3 +1,5 @@
+from sqlalchemy import inspect
+
 import os
 import shutil
 
