@@ -4,6 +4,8 @@ import sqlite3
 import os
 from datetime import datetime
 
+os.makedirs("/mnt/data", exist_ok=True)
+
 app = Flask(__name__)
 DB_NAME = "/mnt/data/cnaps.db"
 
